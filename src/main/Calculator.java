@@ -26,6 +26,12 @@ public class Calculator {
             return false;
         }
     }
+    static public long multiply(long firstVar, long secondVar){
+        return firstVar * secondVar;
+    }
+    static public int multiply(short firstVar, short secondVar){
+        return firstVar * secondVar;
+    }
 
     static public int devide(int firstVar, int secondVar){
         return firstVar/secondVar;
@@ -49,6 +55,12 @@ public class Calculator {
         } else {
             return false;
         }
+    }
+    static public long devide(long firstVar, long secondVar){
+        return firstVar/secondVar;
+    }
+    static public int devide(short firstVar, short secondVar){
+        return firstVar/secondVar;
     }
 
 }
